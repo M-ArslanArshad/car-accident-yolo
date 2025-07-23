@@ -76,6 +76,8 @@ Sample detections and training performance plots are included in the `results/` 
 ## 📦 Dataset Collection
 
 The dataset was collected using frames extracted from publicly available online videos (YouTube, Facebook, etc.). A Python script was used to extract frames, followed by manual annotation of bounding boxes and classification into five deformity levels based on visual inspection.
+please download the dataset :
+https://www.kaggle.com/datasets/marslanarshad/car-accidents-and-deformation-datasetannotated
 
 ---
 
@@ -97,7 +99,7 @@ Dependencies include:
 
 ## 📁 Repo Contents
 
-- `weights/best.pt` – Trained YOLOv5 weights
+- `weights/last.pt` – Trained YOLOv5 weights
 - `dataset.yaml` – Training config
 - `images/`, `labels/` – Dataset directories
 - `detect.py`, `train.py` – Inference and training scripts
@@ -114,5 +116,5 @@ Open for academic and non-commercial use. If you reuse this dataset or model, pl
 
 ## 👤 Author
 
-Developed by **Muhammad Arslan**  
+Developed by **Muhammad Arslan Arshad**  
 Custom YOLOv5 model for accident detection and deformation severity classification.
