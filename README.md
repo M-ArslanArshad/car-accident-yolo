@@ -78,8 +78,8 @@ Sample detections and training performance plots are included in the `results/` 
 The dataset was collected using frames extracted from publicly available online videos (YouTube, Facebook, etc.). A Python script was used to extract frames, followed by manual annotation of bounding boxes and classification into five deformity levels based on visual inspection.
 please download the dataset :
 https://www.kaggle.com/datasets/marslanarshad/car-accidents-and-deformation-datasetannotated
+after downloading dataset please update the paths in custom.yaml:
 
----
 
 ## 📚 Requirements
 
